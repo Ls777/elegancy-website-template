@@ -1,0 +1,51 @@
+$dark-grey: #454546;
+
+body {
+    background: url('/img/header.jpg') no-repeat center top / 2000px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Raleway";
+    color: $dark-grey;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+#brand {
+        padding: 10px;
+        margin: 0px;
+        font-size: 22px;
+        letter-spacing: -1px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+
+nav li {
+    padding-left: 40px;
+}
+
+header {
+    text-align: center;
+    
+}
+h1 {
+    font-family: "Eternal Fascination";
+}
+
+h4 {
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+div, ul, nav, header, h1, h2, h3, h4 {
+    border: red 1px dotted;
+}
