@@ -6,9 +6,49 @@ body {
     -webkit-font-smoothing: antialiased;
     font-family: "Raleway";
     color: $dark-grey;
-    margin: 0;
+
 }
 
+a {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    margin-top: 35px;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    letter-spacing: -1px;
+    font-weight: 300;
+    color: $dark-grey;
+}
+
+nav ul {
+    font-size: 14px;
+}
+
+nav li {
+    padding-left: 40px;
+}
+
+.form {
+    margin-top: 40px;
+    background-color: white;
+    padding: 40px;
+    line-height: 40px;
+}
+
+form {
+    line-height: 40px;
+}
+
+input, button {
+    font-size: 14px !important;
+    line-height: 30px !important;
+}
+/*
 nav {
     display: flex;
     align-items: center;
@@ -16,13 +56,6 @@ nav {
     margin-top: 40px;
 }
 
-#brand {
-        padding: 10px;
-        margin: 0px;
-        font-size: 22px;
-        letter-spacing: -1px;
-        font-weight: 300;
-}
 
 nav ul {
     display: flex;
@@ -34,6 +67,7 @@ nav ul {
 nav li {
     padding-left: 40px;
 }
+*/
 
 header {
     text-align: center;
@@ -42,18 +76,18 @@ header {
 h1 {
     font-family: "Euphoria Script", "Times New Roman";
     font-size: 70px;
-    margin: 200px 0px 0px 0px;
+    margin: 180px 0px 0px 0px;
     color: $dark-grey;
 }
 
 h4 {
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-weight: lighter;
     font-size: 13px;
-    margin: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     color: $grey
 }
 
 div, ul, nav, header, h1, h2, h3, h4 {
-    border: red 1px dotted;
+    //border: red 1px dotted;
 }
