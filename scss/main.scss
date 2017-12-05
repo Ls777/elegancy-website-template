@@ -1,7 +1,8 @@
 $dark-grey: #454546;
+$grey: #7c7c7c;
 
 body {
-    background: url('/img/header.jpg') no-repeat center top / 2000px;
+    background: url('/img/header.jpg') no-repeat center top / 1980px;
     -webkit-font-smoothing: antialiased;
     font-family: "Raleway";
     color: $dark-grey;
@@ -12,6 +13,7 @@ nav {
     display: flex;
     align-items: center;
     font-size: 14px;
+    margin-top: 40px;
 }
 
 #brand {
@@ -19,6 +21,7 @@ nav {
         margin: 0px;
         font-size: 22px;
         letter-spacing: -1px;
+        font-weight: 300;
 }
 
 nav ul {
@@ -37,13 +40,18 @@ header {
     
 }
 h1 {
-    font-family: "Eternal Fascination";
+    font-family: "Euphoria Script", "Times New Roman";
+    font-size: 70px;
+    margin: 200px 0px 0px 0px;
+    color: $dark-grey;
 }
 
 h4 {
     letter-spacing: 2px;
     font-weight: lighter;
     font-size: 13px;
+    margin: 0px 0px 0px 0px;
+    color: $grey
 }
 
 div, ul, nav, header, h1, h2, h3, h4 {
