@@ -1,5 +1,6 @@
 $dark-grey: #454546;
 $grey: #7c7c7c;
+$dark-green: #395e66;
 
 body {
     background: url('/img/header.jpg') no-repeat center top / 1980px;
@@ -33,20 +34,46 @@ nav li {
     padding-left: 40px;
 }
 
-.form {
-    margin-top: 40px;
+.actionForm {
+    margin-top: 60px;
     background-color: white;
     padding: 40px;
     line-height: 40px;
+}
+
+@media (min-width: 1200px) {
+    .actionForm {
+        width: 770px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 form {
     line-height: 40px;
 }
 
+.gutter-2.form-row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  .gutter-2 > [class^="col-"], .gutter-2 > [class^=" col-"] {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
 input, button {
     font-size: 14px !important;
     line-height: 30px !important;
+}
+
+button {
+    background-color: $dark-green !important;
+    font-weight: 600 !important;
+}
+
+input {
+    background-color: #f0f0f0 !important;
 }
 /*
 nav {
