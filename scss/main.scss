@@ -10,6 +10,18 @@ body {
 
 }
 
+.call-to-action {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .call-to-action {
+        padding-top: 180px;
+        padding-bottom: 200px;
+    }
+}
+
 a {
     margin: 0px;
     padding: 0px;
@@ -67,7 +79,7 @@ input, button {
     line-height: 30px !important;
 }
 
-button {
+#sub-button {
     background-color: $dark-green !important;
     font-weight: 600 !important;
 }
@@ -103,7 +115,7 @@ header {
 h1 {
     font-family: "Euphoria Script", "Times New Roman";
     font-size: 70px;
-    margin: 180px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     color: $dark-grey;
 }
 
@@ -113,6 +125,12 @@ h4 {
     font-size: 13px;
     margin: 10px 0px 0px 0px;
     color: $grey
+
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
 }
 
 div, ul, nav, header, h1, h2, h3, h4 {
