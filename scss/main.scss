@@ -1,13 +1,18 @@
 $dark-grey: #454546;
 $grey: #7c7c7c;
+$light-grey: #a5acaf;
 $dark-green: #395e66;
 
+html{ 
+    height:100%; 
+    width:100%
+}
+
 body {
-    background: url('/img/header.jpg') no-repeat center top / 1980px;
+    background: url('/img/header.jpg') no-repeat center top / 1500px;
     -webkit-font-smoothing: antialiased;
     font-family: "Raleway";
     color: $dark-grey;
-
 }
 
 .call-to-action {
@@ -16,9 +21,23 @@ body {
 }
 
 @media (min-width: 768px) {
+    body {
+        background-size: 1980px;
+    }
+
     .call-to-action {
         padding-top: 180px;
         padding-bottom: 200px;
+    }
+
+    
+}
+
+@media (min-width: 992px) {
+    .thin-divider {
+        border-left: solid 1px $light-grey;
+        height: 20px;
+        margin-left: 20px;
     }
 }
 
@@ -38,12 +57,34 @@ nav {
     color: $dark-grey !important;
 }
 
+
+
 nav ul {
     font-size: 14px;
 }
 
-nav li {
-    padding-left: 40px;
+.navlinks li {
+    padding-left: 10px;
+    text-align: right;
+}
+
+@media (min-width: 992px) {
+    .navlinks li {
+        padding-left: 30px;
+    }
+}
+
+.social {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social li {
+    padding-left: 15px;
+}
+
+.fab {
+    color: #575757;
 }
 
 .actionForm {
