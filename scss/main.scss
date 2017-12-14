@@ -1,6 +1,7 @@
 $dark-grey: #454546;
 $grey: #7c7c7c;
 $light-grey: #a5acaf;
+$super-light-grey: #ebebee;
 $dark-green: #395e66;
 
 html{ 
@@ -185,22 +186,65 @@ h3 {
     margin-top: 30px;
 }
 
-.dotted-spaced {
+.dotted-spaced-bottom {
+    position:relative;
+    left:2px;
     background-image: linear-gradient(to right, rgb(0, 0, 0) 20%, rgba(255, 255, 255, 0) 0%);
     background-position: top;
     background-size: 5px 1px;
     background-repeat: repeat-x;
+    margin: 0px auto -3px;
+    width: 75px;
+    height: 1px;
+    
   }
 
-  .left.dotted-spaced {
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 20%, rgba(255, 255, 255, 0) 0%);
-    background-position: left;
-    background-size: 1px 5px;
-    background-repeat: repeat-y;
-    margin: 0px auto 0px;
-    width: 1px;
-    height: 25px;
-  }
+.dotted-spaced {
+background-image: linear-gradient(to bottom, rgb(0, 0, 0) 20%, rgba(255, 255, 255, 0) 0%);
+background-position: left;
+background-size: 1px 5px;
+background-repeat: repeat-y;
+margin: 0px auto 0px;
+width: 1px;
+height: 25px;
+}
+
+.short {
+    height:18px;
+}
+
+#quotes{
+    padding-top: 100px;
+}
+
+#quotes-carousel{
+    padding-bottom: 100px;
+}
+
+#quotes h2{
+    margin-bottom: 30px;
+}
+
+.quote {
+    margin-top: 90px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.carousel-indicators li{
+    background-color: $super-light-grey;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active{
+    background-color: $light-grey;
+}
+
+.icon-quote-control {
+    color: $grey !important;
+}
 
 div, ul, nav, header, h1, h2, h3, h4 {
     //border: red 1px dotted;
