@@ -402,6 +402,51 @@ height: 25px;
     margin-top: 10px
 }
 
+#projects {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.project-container {
+    max-width: 225px;
+    margin: 0px auto;
+}
+
+#projects h4{
+    text-align: left;
+    color: $dark-green;
+}
+
+#projects .dotted-spaced{
+    margin-bottom: 100px;
+}
+
+#clients {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.clientlist {
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+.client-container {
+    width: 230px;
+    margin: 10px auto;
+    height: 80px;
+    border: 3px solid #dfdfdf;
+}
+
+#clients img {
+    width: 150px;
+    height: 50px;
+    margin-top: 11px;
+}
+
+
+
+
 
 div, ul, nav, header, h1, h2, h3, h4, img, svg {
     //border: red 1px dotted;
