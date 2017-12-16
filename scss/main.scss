@@ -17,6 +17,46 @@ body {
     color: $dark-grey;
 }
 
+h1 {
+    font-family: "Euphoria Script", "Times New Roman";
+    font-size: 70px;
+    margin: 0px 0px 0px 0px;
+    color: $dark-grey;
+}
+
+h2 {
+    color: $dark-green;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 25px 0px 7px;
+}
+
+h4 {
+    color: $dark-grey;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin: 20px 0px 20px;
+}
+
+h5 {
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 13px;
+    margin: 10px 0px 0px 0px;
+    color: $grey
+}
+
+
+
 p {
     
     color: $grey;
@@ -128,9 +168,22 @@ input, button {
     line-height: 30px !important;
 }
 
-#sub-button {
+.btn-primary {
     background-color: $dark-green !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+}
+
+#sub-button {
     font-weight: 600 !important;
+}
+
+.btn-secondary {
+    background-color: white !important;
+    color: $dark-green !important;
+    border: 2px solid $dark-green !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
 }
 
 input {
@@ -141,21 +194,7 @@ header {
     text-align: center;
     
 }
-h1 {
-    font-family: "Euphoria Script", "Times New Roman";
-    font-size: 70px;
-    margin: 0px 0px 0px 0px;
-    color: $dark-grey;
-}
 
-h4 {
-    letter-spacing: 3px;
-    font-weight: lighter;
-    font-size: 13px;
-    margin: 10px 0px 0px 0px;
-    color: $grey
-
-}
 
 
 #bullet-points {
@@ -176,20 +215,7 @@ h4 {
     color: $dark-grey;
 }
 
-h2 {
-    color: $dark-green;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    margin-bottom: 20px;
-}
 
-
-h3 {
-    font-size: 16px;
-    font-weight: 700;
-    margin: 25px 0px 7px;
-}
 
 .icon {
     color: $dark-green;
@@ -215,13 +241,14 @@ background-image: linear-gradient(to bottom, rgb(0, 0, 0) 20%, rgba(255, 255, 25
 background-position: left;
 background-size: 1px 5px;
 background-repeat: repeat-y;
-margin: 0px auto 0px;
+margin: 30px auto 30px;
 width: 1px;
 height: 25px;
 }
 
 .short {
     height:18px;
+    margin: 0px auto 0px;
 }
 
 #quotes{
@@ -233,16 +260,15 @@ height: 25px;
     padding-bottom: 70px;
 }
 
-#quotes img {
-    margin-top: 30px;
-    margin-bottom: 0px;
-}
-
 .quote {
     margin-top: 90px;
     font-size: 16px;
     font-weight: 400;
     line-height: 35px;
+}
+
+#quotes h3{
+    margin-top: 0px;
 }
 
 .title {
@@ -284,10 +310,97 @@ height: 25px;
 
 #team img{
     margin-top: 100px;
-    margin-bottom: 30px;
+}
+
+.title-caption{ 
+    font-size: 16px;
+    margin-top: -10px;
+    color: #9f9f9f;
+    font-weight: 400;
+}
+
+#licensing {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#cardsection {
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+
+.cardcol {
+    max-width: 340px;
+}
+
+.lcard {
+    padding: 50px 30px 50px;
+    margin-top: 10px;
+    border: solid 5px #e2e2e2;
+    box-shadow:4px 2px 25px #e2e2e2;
 }
 
 
+
+.lcard.main {
+    border-color: #f9e074;
+}
+
+.lcard .dotted-spaced {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.lcard p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+
+.lcard .btn-container {
+    padding: 0px 15px 0px;
+}
+
+.text-muted-card {
+    font-size: 14px;
+    padding-top: 15px;
+    color: $grey;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+.lcard-icon {
+    position: absolute;
+    right: 65px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    padding-top: 7px;
+    color: white;
+    background-color: #f9e074;
+}
+
+.strikethrough {
+    color: $light-grey;
+    text-decoration: line-through;
+}
+
+#getitnow {
+    max-width:220px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px !important;
+    height: 53px;
+}
+
+.free-trial {
+    display: block;
+    color: $grey;
+    text-decoration: underline;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 10px
+}
 
 
 div, ul, nav, header, h1, h2, h3, h4, img, svg {
